@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My Portfolio</h1>
+      </nav>
+      <div class="hero">
+        <h1>Des portfolios sur-mesure</h1>
+        <p>
+          Crée ton espace en ligne unique pour valoriser ton travail, attirer
+          plus de clients et te démarquer sur le web.
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="pack">
+        <div class="essentiel">
+          <div class="detail_offre">
+            <h1>Pack Essentiel</h1>
+            <span>50.000 fr + 5.000 fr pour le nom de domaine</span>
+            <div class="avantage">
+              <h1>Avantages</h1>
+              <ul>
+                <li>Modèle de site préconçu simple et épuré</li>
+                <li>Hébergement inclus (1 an)</li>
+                <li>4 pages (accueil, oeuvres, à propos, contacts)</li>
+                <li>Personnalisation des couleurs et contenus</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <a href="#essentiel"><button>Voir un exemple</button></a>
+            <button>Je commande</button>
+          </div>
+        </div>
+        <div class="equilibre">
+          <div class="detail_offre">
+            <h1>Pack Équilibré</h1>
+            <span>75.000 fr</span>
+            <div class="avantage">
+              <h1>Avantages</h1>
+              <ul>
+                <li>Template plus travaillé avec design moderne</li>
+                <li>Effets d’animation et transitions visuelles</li>
+                <li>5 pages (4 de base + 1 page au choix)</li>
+                <li>Hébergement offert (1 an)</li>
+                <li>Nom de domaine personnalisé inclus</li>
+                <li>Optimisation mobile et tablette</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <a href="#equilibre"><button>Voir un exemple</button></a>
+            <button>Je commande</button>
+          </div>
+        </div>
+        <div class="signature">
+          <div class="detail_offre">
+            <h1>Pack Signature</h1>
+            <span>150.000 à 200.000 fr</span>
+            <div class="avantage">
+              <h1>Avantages</h1>
+              <ul>
+                <li>Site web entièrement conçu sur mesure</li>
+                <li>Design unique basé sur vos préférences</li>
+                <li>Nombre de pages illimité selon vos besoins</li>
+                <li>Animations et interactions personnalisées</li>
+                <li>Nom de domaine offert</li>
+                <li>Hébergement inclus (1 an)</li>
+                <li>Accès à un back office (zone d’administration)</li>
+                <li>Support technique pendant 3 mois</li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <a href="#signature"><button>Voir un exemple</button></a>
+            <button>Je commande</button>
+          </div>
+        </div>
+      </div>
+
+      <section id="essentiel">
+        <h1>Pack Essentiel</h1>
+        <div class="template">
+          <div class="element">
+            <img src="/assets/img/portfolio3/acceuil3.png" alt="" />
+            <div class="bottom">
+              <!-- Bouton pour ouvrir la modale -->
+              <button onclick="openModal('modal1')">Voir en détail</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modale -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal1')">&times;</span>
+          <div class="caroussel">
+            <img
+              src="/assets/img/portfolio3/acceuil3.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio3/oeuvre3.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio3/about3.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio3/contact3.png"
+              alt="Aperçu du template"
+            />
+          </div>
+          <p>Glissez vers la droite</p>
+        </div>
+      </div>
+
+      <!-- Modale -->
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal2')">&times;</span>
+          <div class="caroussel">
+            <img
+              src="/assets/img/portfolio1/acceuil1.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio1/oeuvre1.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio1/about1.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/portfolio1/contact1.png"
+              alt="Aperçu du template"
+            />
+          </div>
+          <p>Glissez vers la droite</p>
+        </div>
+      </div>
+
+      <!-- Modale -->
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal3')">&times;</span>
+          <div class="caroussel">
+            <img
+              src="/assets/img/porfolio2/acceuil2.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/porfolio2/oeuvre2.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/porfolio2/about2.png"
+              alt="Aperçu du template"
+            />
+            <img
+              src="/assets/img/porfolio2/contact2.png"
+              alt="Aperçu du template"
+            />
+          </div>
+          <p>Glissez vers la droite</p>
+        </div>
+      </div>
+
+      <section id="equilibre">
+        <h1>Pack équilibre</h1>
+        <div class="template">
+          <div class="element">
+            <img src="/assets/img/portfolio1/acceuil1.png" alt="" />
+            <div class="bottom">
+              <!-- Bouton pour ouvrir la modale -->
+              <button onclick="openModal('modal2')">Voir en détail</button>
+            </div>
+          </div>
+          <div class="element">
+            <img src="/assets/img/porfolio2/acceuil2.png" alt="" />
+            <div class="bottom">
+              <!-- Bouton pour ouvrir la modale -->
+              <button onclick="openModal('modal3')">Voir en détail</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="signature">
+        <h1>Pack Signature</h1>
+        <div class="msg">
+          <p>
+            Ce pack vous offre un site unique, façonné autour de votre identité
+            visuelle, pour une présence en ligne à votre image.
+          </p>
+          <a href="https://wa.me/2250585235443" target="_blank"
+            ><button>Je veux un site sur mesure</button></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contacts">
+        <h1>Contact</h1>
+        <ul>
+          <a href="mailto:jeanjackdjakale@gmail.com"
+            >jeanjackdjakale@gmail.com</a
+          >
+          <a href="tel:+2250585235443">+225 0585235443</a>
+          <a href="https://wa.me/2250585235443" target="_blank">WhatsApp</a>
+        </ul>
+      </div>
+      <div class="copyright">
+        2025 &copy; My Portfolio | Tout droits reversés
+      </div>
+    </footer>
+  </body>
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = "block";
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+  </script>
+</html>
